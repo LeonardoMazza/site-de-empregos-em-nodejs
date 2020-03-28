@@ -1,0 +1,29 @@
+{
+  "name": "site-de-empregos-em-nodejs",
+  "version": "1.0.0",
+  "description": "Desenvolvimento de site para publicação de vagas de emprego em node.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeonardoMazza/site-de-empregos-em-nodejs.git"
+  },
+  "author": "Leonardo Mazza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LeonardoMazza/site-de-empregos-em-nodejs/issues"
+  },
+  "homepage": "https://github.com/LeonardoMazza/site-de-empregos-em-nodejs#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.0",
+    "sequelize": "^5.21.5",
+    "sqlite3": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
