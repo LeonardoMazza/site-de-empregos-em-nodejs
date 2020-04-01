@@ -1,25 +1,23 @@
 {
-  "name": "site-de-empregos-em-nodejs",
+  "name": "job_finder",
   "version": "1.0.0",
-  "description": "Desenvolvimento de site para publicação de vagas de emprego em node.js",
+  "description": "Este sistema é um portal para programadores encontrarem vagas de trabalho",
   "main": "app.js",
   "scripts": {
     "dev": "nodemon app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LeonardoMazza/site-de-empregos-em-nodejs.git"
-  },
-  "author": "Leonardo Mazza",
+  "keywords": [
+    "dev",
+    "jobs",
+    "dev",
+    "oportunity"
+  ],
+  "author": "Matheus <matheusbudkewiczbattisti@gmail.com> (http://www.horadecodar.com.br/)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/LeonardoMazza/site-de-empregos-em-nodejs/issues"
-  },
-  "homepage": "https://github.com/LeonardoMazza/site-de-empregos-em-nodejs#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
-    "express-handlebars": "^4.0.0",
+    "express-handlebars": "^3.1.0",
     "sequelize": "^5.21.5",
     "sqlite3": "^4.1.1"
   },
