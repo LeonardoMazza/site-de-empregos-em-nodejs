@@ -4,7 +4,7 @@
   "description": "Este sistema é um portal para programadores encontrarem vagas de trabalho",
   "main": "app.js",
   "scripts": {
-    "start": "node app"
+    "start": "node app.js"
   },
   "keywords": [
     "dev",
